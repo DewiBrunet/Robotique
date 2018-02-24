@@ -32,3 +32,4 @@ J’ai besoin d’apprendre à maitriser Arduino pour mes créations.
 4.	Orilum (pour créer les engrenages pour des lampes origamis biomimétiques et autonomes)
 5.	Embossoir électrique (moteurs pour activer des cylindres imprimés en 3D)
 
+![dont-overthink-it-just-do-it-millionairekey-just-do-it-18297335](https://user-images.githubusercontent.com/25649502/36629452-377816ea-1956-11e8-826d-7e3f53eef806.jpg) 
