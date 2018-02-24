@@ -15,7 +15,6 @@ En 2017, j’ai fait 5 séances ou j’ai appris :
 
 Je vais les réviser en les documentant ici.
 
-Les sources de ces 5 séances sont en partie des MOOC, de l’enseignement de Jim et beaucoup de pratique.
 
 ![b6649669fed012ba3513717069567ad0](https://user-images.githubusercontent.com/25649502/36629625-7e30717a-1958-11e8-8aee-029d43c0d958.jpg)
 
