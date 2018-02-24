@@ -27,14 +27,14 @@ Ok, c'est quoi ce truc?
 
 En somme L'Arduino (ici "Arduino UNO") est un "board" avec plein d'éléments dessus.   
 Ce qui est important dessus c'est le **microcontrôleur**, la longue broche noire qui va contenir le code (ce qu'on veut dire de faire).     
-A gauche, les **broches d'alimentation analogique** (5V, 3,3V et Gnd) et les **entrées analogiques**.          
-A droite, les **entrées/sorties numériques**. 
+- A gauche, les **broches d'alimentation analogique** (5V, 3,3V et Gnd) et les **entrées analogiques**.          
+- A droite, les **entrées/sorties numériques**. 
 
-Donc en gros on a un microcontroleur qui va recevoir des informations en code, ici un langage C++ et va les renvoyer pour effectuer des actions (allumer une led, faire fonctionner un moteur...).
-Analogique correspond à une valeur multiple (exemple faire fonctionner des capteurs sonores)
-Numérique correspond à une valeur binaire (exemple allumer une lampe)
+Donc en gros on a un microcontroleur qui va recevoir des informations en code, ici un langage C++ et va les renvoyer pour effectuer des actions (allumer une led, faire fonctionner un moteur...).          
+- Analogique correspond à une valeur multiple (exemple faire fonctionner des capteurs sonores)         
+- Numérique correspond à une valeur binaire (exemple allumer une lampe)         
 
-On retrouve aussi une prise d'alimentation USB, les LED TX et RX (témoins réception/émission) et un bouton reset.            
+On retrouve aussi une prise d'alimentation USB, les LED TX et RX (témoins réception/émission) et un bouton reset.                     
 Le reste n'est pas important pour l'instant.  
 
 
