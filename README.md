@@ -1,11 +1,11 @@
-# Robotique
-Recherches appliquées pour apprendre la robotique avec Arduino
+Mes recherches appliquées pour apprendre la robotique avec Arduino
 
 ## Pourquoi partager ça?
 
 Parce que la robotique est un outil créatif contemporain et abordable.              
 Parce qu’on trouve toujours des excuses pour ne pas apprendre.           
-Parce que même au niveau 0, on peut apprendre à maitrise la robotique.            
+Parce que même au niveau 0, on peut apprendre à maitrise la robotique. 
+Parce qu'une des meilleure manière d'apprendre c'est d'enseigner/de documenter.  
 Parce que j’espère que ça pourra apporter une aide à un apprenti dans le besoin.                
 
 ## Pourquoi j’ai besoin d’apprendre la robotique ?
