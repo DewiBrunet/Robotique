@@ -5,3 +5,7 @@ J'ai choisis d'acheter un "starter kit" avec les élements de base et d'autres c
 Sur Aliexpress, j'en ai eu pour 50€ : https://www.aliexpress.com/item/Free-shipping-RFID-learning-kit-upgraded-version-starter-kit-for-arduino/2044999580.html?spm=2114.13010608.0.0.lXIG6r
 
 ![starter kit arduino](https://user-images.githubusercontent.com/25649502/36629546-50721bfe-1957-11e8-9070-5ef4b63491c2.png)
+
+
+C'est pas "l'officiel" comme souvent.
+J'ai acheté aussi un Arduino UNO en plus, pour supporter le projet opensource et en avoir un de rechange.
