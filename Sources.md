@@ -11,3 +11,5 @@ Perso j'essaye d'avoir un apprentissage complémentaire sur base de :
 
 J'aimerai aussi trouver des chouettes applis sur smartphone, pour l'instant je recommande surtout "ElectroDroid" (plein d'outils utile du genre le code couleur des résistances) : https://play.google.com/store/apps/details?id=it.android.demi.elettronica&hl=fr
 
+Je recommande aussi Fritzing que je viens de découvrir. Ca à l'air cool pour faire ces circuits en virtuel (et générer un schéma) mais j'ai pas trouvé l'option pour tester si le circuit fonctionne... http://fritzing.org/download/?donation=0
+
