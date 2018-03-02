@@ -1,7 +1,6 @@
 # Mes sources d'apprentissages :
 
 On trouve plein de cours, tutos en ligne très bien fait.
-
 Perso j'essaye d'avoir un apprentissage complémentaire sur base de :
 
 - Cours et conseils d'OpenFab (Jim et Nicolas De Barquin)          
@@ -13,3 +12,6 @@ J'aimerai aussi trouver des chouettes applis sur smartphone, pour l'instant je r
 
 Je recommande aussi Fritzing que je viens de découvrir. Ca à l'air cool pour faire ces circuits en virtuel (et générer un schéma) mais j'ai pas trouvé l'option pour tester si le circuit fonctionne... http://fritzing.org/download/?donation=0
 
+Autres sites utiles :
+www.instructables.com/        
+www.arduino.cc/en/Tutorial/HomePage             
