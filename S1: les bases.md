@@ -115,7 +115,7 @@ Ok pour ça, j'ai besoin de mon Arduino, du cable d'alimentation, d'une LED, de 
 Bin oui, c'est quoi?
 Composant semi conducteur qui brille si on le branche correctement.
 Composé d'une anode pour connecter à l'arrivée du courant et d'une cathode pour connecter au Gnd.
-Le - a une branche plus petite et à un bord troncqué.
+Le - (cathode) a une branche plus petite et à un bord troncqué.
 
 ![led-anatomy-1024x455](https://user-images.githubusercontent.com/25649502/36680045-039d9e92-1b15-11e8-87d4-f7a4b336f4d6.png)
 
@@ -168,3 +168,68 @@ void loop() {
 }
 
 ![telechargement](https://user-images.githubusercontent.com/25649502/36681528-24e51a0e-1b19-11e8-93ba-ce7e0e33e6b1.jpg) 
+
+**17 mars 2018**
+
+Difficile de se motiver et se cadrer sans structure... Alors je décide de suivre "Arduino class" sur Instructables : https://www.instructables.com/class/Arduino-Class/
+
+J'ai skip la première leçon pour passer direct aux expérimentations avec les leds. C'est très bien fait, simple et clair.
+
+C'est parti pour un chenillard!!
+
+![20180317_212857](https://user-images.githubusercontent.com/25649502/37779847-a954363a-2ded-11e8-8fa5-8aa528434508.jpg)
+
+Petit problème : ma 4ème LED s'allume pas... est-ce parce qu'elle est bleue? (en inverssant + et - ça marche)
+
+
+**21 mars 2018**
+
+J'ai du mal à me concentrer sur la théorie, sur le code. Il y a beaucoup de nouvelles logiques, de vocabulaire et je suis frustré de pas en voir la finalité immédiate et surtout de commancer à faire fonctionner des moteurs et capteurs! Bref, j'apprends parfois mieux par la pratique...
+
+Avec l'appli "Learn Arduino", il y a des tutos pour les moteurs, et si je testais celui sur les "moteur DC"?
+DC Motor (Direct Current Motor), les plus courants on une borne + et une borne - (en fonction du sens de branchement, il tournera dans l'une ou l'autre direction).
+
+Pour travailler avec mon DC motor 5V, j'ai besoin :
+- Arduino
+- Transistor PN2222
+- Diode 1N4001
+- Resistance 270
+
+Petit montage et code rapide :
+![screenshot_20180322-165832](https://user-images.githubusercontent.com/25649502/37783122-f4338b40-2df4-11e8-81d4-02f66e1e8371.png)
+![screenshot_20180322-165850](https://user-images.githubusercontent.com/25649502/37783119-f4007912-2df4-11e8-949e-9f809afec406.png)
+
+Arrg, ça marche pas...
+Après mise à jour du logiciel (erreur "could not find member name...") et changement de direction du transistor (le mieux n'est pas tronqué mais à la place il y a une petite tige) ça fonctionne :)
+Bon par contre ça tourne trop vite et ça s'arrête pas :(
+
+Alors go pour la suite : gérer la vitesse.
+Codage, branchement, ça fonctionne pas... alors allons cherche un autre tuto, sur dummies.com ;p en plus il y a un bouton régulateur dedans, on va pouvoir s'amuser!
+http://www.dummies.com/computers/arduino/how-to-control-the-speed-of-a-dc-motor-with-the-arduino/
+
+![381386 image0 1](https://user-images.githubusercontent.com/25649502/37782832-367e18b8-2df4-11e8-9769-8c773009bbfc.jpg)
+
+et le code :
+
+int potPin = A0;               
+int motorPin = 9;               
+int potValue = 0;               
+int motorValue = 0;               
+void setup() {               
+ Serial.begin(9600);               
+}               
+void loop() {               
+ potValue = analogRead(potPin);                 
+ motorValue = map(potValue, 0, 1023, 0, 255);               
+ analogWrite(motorPin, motorValue);                 
+ Serial.print("potentiometer = " );                    
+ Serial.print(potValue);               
+ Serial.print("t motor = ");               
+ Serial.println(motorValue);               
+ delay(2);                   
+}               
+
+Ca marche :) par contre j'arrive pas encore à comprendre la logique de la régulation (c'est sur la ligne " motorValue = map(potValue, 0, 1023, 0, 255);"??)
+
+
+
